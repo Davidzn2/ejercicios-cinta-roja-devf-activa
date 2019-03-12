@@ -5,7 +5,10 @@
 //     genero: "Masculino",
 //     programa:"Los Simpson"
 // }
-
+let arregloDeLibros = [
+    {titulo:"A tale of two cities", author:"Dickens"},
+    {titulo:"Sauce ciego, mujer dormida", author:"Murakami"}
+]
 const snoopy = {
     nombre: "Snoopy",
     raza: "Beagle",
@@ -32,7 +35,7 @@ snoopy.puedeVolar = false
 //         console.log("Pshhhh")
 //     }
 // };
-// let correr  => ()
+
 // const Snoopy = new Perro("Snoopy", "Beagle", "Blanco y negro", "Macho", "Charlie Brown")
 // const Scooby_Doo = new Perro("Scooby","Gran Danes", "Cafe","Macho", "Scooby Doo")
 // const Ayudante_De_Santa = new Perro("Ayudante de Santa","Galgo", "Cafe","Macho", "Los Simpson")
