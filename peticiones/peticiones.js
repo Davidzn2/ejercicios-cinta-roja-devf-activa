@@ -1,10 +1,10 @@
-const URL_BASE = 'https://pokeapi.co/api/v2/'
+const URL_BASE = 'https://swapi.co/api/'
 function getCharacter(id){
-  axios.get(`${URL_BASE}pokemon/${id}`)
+  axios.get(`${URL_BASE}people/${id}`)
     .then(function(response) {
-    console.log(response.data);
+      console.log(response.data);
   })
-    .catch(function(error) {
+  .catch(function(error) {
     console.log(error);
   });
 }
@@ -12,5 +12,4 @@ function getCharacter(id){
 getCharacter(1)
 getCharacter(2)
 getCharacter(3)
-
 

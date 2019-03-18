@@ -1,12 +1,13 @@
-const URL_BASE = 'https://pokeapi.co/api/v2/'
+const URL_BASE = 'https://swapi.co/api/'
 function getCharacter(id){
-  fetch(`${URL_BASE}pokemon/${id}`)
+    
+  fetch(`${URL_BASE}people/${id}`)
     .then(function(response) {
-    console.log(response.json());
-  })
-  .catch(function(error) {
-    console.log(error);
-  });
+        console.log(response.json());
+    })
+    .catch(function(error) {
+        console.log(error);
+    });
 }
 
 getCharacter(1)
