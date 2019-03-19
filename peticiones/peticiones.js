@@ -2,14 +2,13 @@ const URL_BASE = 'https://swapi.co/api/'
 function getCharacter(id){
   axios.get(`${URL_BASE}people/${id}`)
     .then(function(response) {
-      console.log(response.data);
+      return response.data.name ;
+      
   })
   .catch(function(error) {
     console.log(error);
   });
 }
+let b = getCharacter(1)
 
-getCharacter(1)
-getCharacter(2)
-getCharacter(3)
 
