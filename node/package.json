@@ -1,0 +1,14 @@
+{
+  "name": "prueba",
+  "version": "1.0.0",
+  "description": "Este es un ejercicio de prueba",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "davidzn2",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.88.0"
+  }
+}

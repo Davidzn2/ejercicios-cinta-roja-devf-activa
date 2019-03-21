@@ -1,0 +1,14 @@
+{
+  "name": "node2",
+  "version": "1.0.0",
+  "description": "Proyecto de prueba muy muy serio, con el que dominaremos el mundo, Pinky",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "davidzn2",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.88.0"
+  }
+}
