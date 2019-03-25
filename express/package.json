@@ -1,0 +1,15 @@
+{
+  "name": "proyecto-backend",
+  "version": "1.0.0",
+  "description": "Ejemplo de una aplicacion Node JS con Express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "davidzn2",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.4",
+    "express": "^4.16.4"
+  }
+}
