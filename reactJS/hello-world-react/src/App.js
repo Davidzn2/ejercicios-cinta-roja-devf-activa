@@ -4,12 +4,16 @@ import Saludar from './Saludar'
 import Ciclo from './Ciclo'
 
 class App extends Component {
-  handleChange = e =>{
+  state = {x:{}}
+   handleChange = e =>{
     this.setState({
-      equis: e.target.value.length,
-    },()=>{
+      x: e.target.value,
+    },
       console.log(this.state)
-    })
+    )
+  }
+  handleClick = () =>{
+   alert('Clickeaste el boton')
   }
   render() {
     return (
@@ -19,11 +23,12 @@ class App extends Component {
             Hello World!!!
           </h1>
         </header>
-      <input 
-        onChange={this.handleChange}
-        type="text"
-        name="Equis Cosa"
-      />
+        <input 
+          onChange={this.handleChange} 
+          type="text" 
+          name="Cualquiera"
+        />
+        <button onClick={this.handleClick}>Hola</button>
         <Saludar 
           nombre="David"
           apellido="Zonana"
