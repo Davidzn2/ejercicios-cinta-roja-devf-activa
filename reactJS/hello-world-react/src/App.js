@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Saludar from './Saludar'
 import Ciclo from './Ciclo'
-
+import Peticiones from './Peticiones'
 class App extends Component {
   state = {x:{}}
    handleChange = e =>{
@@ -40,6 +40,7 @@ class App extends Component {
           nombre="Jaco" 
         />
         <Ciclo />
+        <Peticiones />
       </div>
       
     );
