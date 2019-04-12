@@ -12,7 +12,10 @@ var libroSchema = new Schema({
 	titulo: String,
     paginas: Number,
     isbn: String,
-    autor: { type: Schema.ObjectId, ref: "Autor" } 
+    autor: { 
+        type: Schema.ObjectId, 
+        ref: "author" 
+    } 
 });
 
 Author = mongoose.model('Author', autorSchema);
