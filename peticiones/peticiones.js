@@ -1,4 +1,7 @@
+const axios = require('axios')
+
 const URL_BASE = 'https://swapi.co/api/'
+
 function getCharacter(id){
   axios.get(`${URL_BASE}people/${id}`)
     .then(function(response) {
@@ -10,5 +13,4 @@ function getCharacter(id){
   });
 }
 let b = getCharacter(1)
-
 
